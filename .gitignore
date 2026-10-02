@@ -1,0 +1,31 @@
+# Private data and credentials
+data/*
+!data/.gitkeep
+auth/*
+!auth/.gitkeep
+token*.json
+token*.pickle
+*.pickle
+credentials*.json
+client_secret*.json
+.env
+*.xlsx
+*.xls
+*.csv
+*.pdf
+*.doc
+*.docx
+*.log
+
+# Local-only legacy files
+*.gs
+_original/
+
+# Sample data is safe to publish
+!sample_data/*
+
+# Python / OS
+__pycache__/
+venv/
+.venv/
+.DS_Store
